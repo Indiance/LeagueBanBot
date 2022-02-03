@@ -1,0 +1,22 @@
+{
+  "name": "leagebanbot",
+  "version": "1.0.0",
+  "description": "This is a bot that bans people playing league (probably gonna chang e it for any activity but lets see)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Indiance/LeagueBanBot.git"
+  },
+  "author": "Tharun Viswanathan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Indiance/LeagueBanBot/issues"
+  },
+  "homepage": "https://github.com/Indiance/LeagueBanBot#readme",
+  "dependencies": {
+    "discord.js": "^13.6.0"
+  }
+}
