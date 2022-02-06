@@ -25,7 +25,9 @@ client.on("presenceUpdate", (oldPresence, newPresence) => {
 		newPresence.activities.forEach(activity => {
 			activityNames.push(activity.name);
 		});
-		console.log(activityNames);
+        if (activityNames.includes('League of Legends')) {
+            newPresence.member.ban();
+        }
 	}
 	catch {
 		console.log('undefined');
